@@ -9,8 +9,6 @@
 
 <body>
 
-<?php include ('header.php'); ?>
-
 <h1>Bienvenue sur le site</h1>
 
 <h3>Un petit lorem ipsum</h3>
@@ -25,7 +23,6 @@
 
     Vitae auctor eu augue ut lectus. Viverra accumsan in nisl nisi scelerisque eu ultrices. Ac odio tempor orci dapibus ultrices in iaculis nunc. Hendrerit gravida rutrum quisque non tellus orci ac. Egestas purus viverra accumsan in nisl nisi scelerisque. Leo urna molestie at elementum eu facilisis sed odio morbi. Leo a diam sollicitudin tempor id eu nisl nunc mi. Laoreet suspendisse interdum consectetur libero. In egestas erat imperdiet sed euismod nisi porta lorem. Euismod quis viverra nibh cras pulvinar. Egestas maecenas pharetra convallis posuere morbi leo urna molestie.</p>
 
-<?php include ('footer.php'); ?>
 
 </body>
 

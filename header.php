@@ -70,11 +70,11 @@
       </a>
 
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="/?Page=home" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="/" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="/?Page=faq" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="/Page=contact" class="nav-link">contact</a></li> <!-- /  correspond a la racine index.php -->
         </ul>
 
       <div class="col-md-3 text-end">

@@ -1,22 +1,23 @@
 <?php include ('header.php'); ?>
 
 <?php
-<form action="" method="GET">
 
-   <input name="page">
+if (isset($_GET['Page'])){
+    if($_GET['Page'] == "lol") {
+    }
+    if($_GET['Page'] == "contact") {
+        include "Contact.php";
+    }
+    if($_GET['Page'] == "home") {
+        include "pagePrincipale.php";
+    }
+    if($_GET['Page'] == "faq") {
+        include "FAQ.php";
+    }
+}
 
-</form>
-
-switch ($_SERVER['REQUEST_URI']) {
-    case '/help':
-        include 'help.php';
-        break;
-    case '/calendar':
-        include 'calendar.php';
-        break;
-    default:
-        include 'notfound.php';
-        break;
+else {
+    include "pagePrincipale.php";
 }
 ?>
 
