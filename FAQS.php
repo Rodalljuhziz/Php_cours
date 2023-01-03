@@ -11,8 +11,9 @@
 
 <?php include ('header.php'); ?>
 
-<h1>F</h1>
+<h1>Foire aux questions:</h1>
 
+<p>Pour le moment aucune question n'est posé.</p>
 <?php include ('footer.php'); ?>
 
 </body>
