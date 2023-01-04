@@ -13,3 +13,20 @@
 .dropdown-toggle {
   outline: 0;
 }
+
+form {
+  width: 250px;
+  margin: 20px;
+}
+
+textarea{
+  resize: none;
+}
+
+form p{
+  display:none;
+}
+p.visible{
+  display:block;
+  color: red;
+}

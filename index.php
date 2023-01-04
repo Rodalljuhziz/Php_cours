@@ -5,14 +5,17 @@
 if (isset($_GET['Page'])){
     if($_GET['Page'] == "lol") {
     }
-    if($_GET['Page'] == "contact") {
+    elseif($_GET['Page'] == "contact") {
         include "Contact.php";
     }
-    if($_GET['Page'] == "home") {
+    elseif($_GET['Page'] == "home") {
         include "pagePrincipale.php";
     }
-    if($_GET['Page'] == "faq") {
+    elseif($_GET['Page'] == "faq") {
         include "FAQ.php";
+    }
+    else {
+        include "unfound.php";
     }
 }
 
